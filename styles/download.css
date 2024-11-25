@@ -1,0 +1,21 @@
+#download {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  text-align: center;
+
+  background: #c2c2c23f;
+
+  padding: 2rem;
+
+  h1 {
+    color: #212121;
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+  }
+
+  .texts {
+    margin-bottom: 1rem;
+  }
+}

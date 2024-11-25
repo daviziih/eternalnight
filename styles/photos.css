@@ -1,0 +1,29 @@
+#photos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .photos {
+    display: grid;
+
+    margin-top: 4rem;
+
+    grid-template-columns: repeat(3, 400px);
+    gap: 1rem;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+
+      border-radius: 8px;
+    }
+  }
+}

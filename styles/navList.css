@@ -1,0 +1,15 @@
+nav {
+  display: flex;
+  height: 8vh;
+  justify-content: space-between;
+  align-items: center;
+
+  > div {
+    display: flex;
+    font-size: 1.2rem;
+    gap: 1rem;
+    a {
+      color: black;
+    }
+  }
+}

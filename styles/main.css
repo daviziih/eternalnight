@@ -1,0 +1,16 @@
+#index {
+  margin-top: 2rem;
+
+  img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  div {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+
+    margin-top: -100px;
+  }
+}

@@ -1,0 +1,32 @@
+#toPlay {
+  display: grid;
+  margin: 2rem 0;
+  place-content: center;
+
+  gap: 2rem;
+
+  img {
+    width: 500px;
+    height: 300px;
+    border-radius: 16px;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 2rem;
+    }
+
+    .texts {
+      flex-direction: row;
+    }
+  }
+
+  p {
+    width: 25rem;
+  }
+}
